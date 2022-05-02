@@ -1,0 +1,37 @@
+{
+  "name": "gulp-template",
+  "version": "1.0.0",
+  "description": "A demo for gulp",
+  "scripts": {
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likuner/gulp-template.git"
+  },
+  "keywords": [],
+  "author": "likuner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likuner/gulp-template/issues"
+  },
+  "homepage": "https://github.com/likuner/gulp-template#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-beautify": "^3.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-inject": "^5.0.5",
+    "gulp-less": "^5.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-postcss": "^9.0.1",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
