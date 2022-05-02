@@ -20,7 +20,8 @@ const jsTask = () => {
   return gulp
     .src('./src/js/*.js')
     .pipe(babel({
-      presets: ['@babel/env']
+      presets: ['@babel/env'],
+      plugins: ['@babel/plugin-transform-runtime']
     }))
     .pipe(uglify())
     .pipe(gulp.dest('./dist/js'))

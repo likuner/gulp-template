@@ -1,7 +1,11 @@
-export function hello () {
+function hello () {
   console.log('hello')
 }
 
-export async function fn() {
+function fn() {
   return 'async'
 }
+
+hello()
+
+fn()
